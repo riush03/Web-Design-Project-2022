@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=0">
+        <title>My Blog</title>
+        <!-- BLOG STYLESHEET -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+        <!-- ICONS CDN-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    </head>
+    <body>
+        <nav>
+            <div class="container nav-container">
+                <a href="index.html" class="nav_logo">DenisBlog</a>
+                <ul class="nav-items">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signin.html">Signin</a></li>
+                    <li class="nav-profile">
+                        <div class="user-profile">
+                            <img src="./assets/images/profile.png"/>
+                        </div>
+                        <ul>
+                            <li><a href="dashboard.html">Dashboard</a></li>
+                            <li><a href="register.html">logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button id="open_menu"><i class="uil uil-bars"></i></button>
+                <button id="close_menu"><i class="uil uil-multiply"></i></button>
+            </div>
+        </nav>
+        <!-- END OF NAVIGATION SECTION-->
+<section class="dashboard">
+    <div class="container dashboard-container">
+        <button id="show-sidebar-btn" class="sidebar-toggle"></button>
+        <button id="hide-sidebar-btn" class="sidebar-toggle"></button>
+        <aside>
+            <ul>
+                <li>
+                    <a href="add-post.html"><i class="uil uil-pen"></i>
+                        <h5>Add post</h5>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="manage-post.html" class="active"><i class="uil uil-pen"></i>
+                        <h5>Manage posts</h5>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="add-post.html"><i class="uil uil-pen"></i>
+                        <h5>Add user</h5>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="add-post.html"><i class="uil uil-pen"></i>
+                        <h5>Manage users</h5>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="add-post.html"><i class="uil uil-pen"></i>
+                        <h5>Add category</h5>
+                    </a>
+                </li>
+ 
+                <li>
+                    <a href="add-post.html"><i class="uil uil-pen"></i>
+                        <h5>Add post</h5>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="add-post.html" ><i class="uil uil-pen"></i>
+                        <h5>Manage categories</h5>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Manage posts</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The output obtained can be parsed and printed on the screen</td>
+                        <td>Technology</td>
+                        <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>The output obtained can be parsed and printed on the screen</td>
+                        <td>Technology</td>
+                        <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>The output obtained can be parsed and printed on the screen</td>
+                        <td>Technology</td>
+                        <td><a href="edit-category.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-social">
+        <a href="#" target="_blank"><i class=""></i></a>
+        <a href="#" target="_blank"><i class=""></i></a>
+        <a href="#" target="_blank"><i class=""></i></a>
+        <a href="#" target="_blank"><i class=""></i></a>
+    </div>
+    <div class="container footer-container">
+        <article>
+            <h4>Categories</h4>
+            <ul>
+                <li><a href class="category-button">Wildlife</a></li>
+                <li><a href class="category-button">Art</a></li>
+                <li><a href class="category-button">Business</a></li>
+                <li><a href class="category-button">Science</a></li>
+                <li><a href class="category-button">Travel</a></li>
+                <li><a href class="category-button">Technolgy</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>Support</h4>
+            <ul>
+                <li><a href class="category-button">Online support</a></li>
+                <li><a href class="category-button">Contact numbers</a></li>
+                <li><a href class="category-button">Email</a></li>
+                <li><a href class="category-button">Social support</a></li>
+                <li><a href class="category-button">Location</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>Blog</h4>
+            <ul>
+                <li><a href class="category-button">Technolgy</a></li>
+                <li><a href class="category-button">Programming</a></li>
+                <li><a href class="category-button">SEO Optimization</a></li>
+                <li><a href class="category-button">Recent</a></li>
+                <li><a href class="category-button">Popular</a></li>
+                <li><a href class="category-button">Categories</a></li>
+            </ul>
+        </article>
+
+        <article>
+            <h4>Permalinks</h4>
+            <ul>
+                <li><a href class="category-button">Home</a></li>
+                <li><a href class="category-button">Blog</a></li>
+                <li><a href class="category-button">About</a></li>
+                <li><a href class="category-button">Services</a></li>
+                <li><a href class="category-button">Contact</a></li>
+            </ul>
+        </article>
+    </div>
+   
+ </footer>
+ <!-- end of footer-->
+ <div class="footer-copyright">
+    <small>Copyright &copy;2022 DenisBlog</small>
+</div>
+<!-- scripts -->
+<script src="./assets/js/main.js"></script>
+</body>
+</html> 
